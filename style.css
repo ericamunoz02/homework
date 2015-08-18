@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 16px/1.4 "Segoe UI", Tahoma, Helvetica, Sans-Serif;
+  background-color: #333;
+}
+#page {
+  margin-top: 3.5em;
+  min-height: 100px;
+}
+#page #top,
+#page #about,
+#page #services,
+#page #contact {
+  padding: 0.2em 1em;
+  min-height: 450px;
+  border-top: 1px dashed #666;
+}
+#page #top h2,
+#page #about h2,
+#page #services h2,
+#page #contact h2 {
+  padding: 0.3em 0;
+  line-height: 1.1em;
+  margin: 0;
+  text-align: center;
+  
+}
+#page #top {
+  background: #FFF;
+}
+#page #about {
+  background: #FFF;
+}
+#page #services {
+  background: #FFF;
+}
+#page #contact {
+  background: #FFF;
+}
+nav,
+div.nav {
+  position: fixed;
+  z-index: 1024;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+nav ul,
+div.nav ul {
+  background: #333;
+  text-align: center;
+  padding: 2.5em;
+}
+nav ul li,
+div.nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a,
+div.nav ul li a {
+  color: #0CC;
+  text-decoration: none;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+nav ul li a:hover,
+div.nav ul li a:hover {
+  background-color: lightGrey;
+  color: #333;
+  transition: all 0.2s;
+  border-bottom: 0.1em solid black;
+}
+nav ul li.active a,
+div.nav ul li.active a {
+  background-color: #222;
+  border-bottom: 0.1em solid #222;
+  transition: all 0.2s;
+}
+nav ul li.active a:hover,
+div.nav ul li.active a:hover {
+  background-color: lightGrey;
+  color: #333;
+  transition: all 0.2s;
+  border-bottom: 0.1em solid black;
+}
+
+
+
+h1{
+    font-size:50px;
+	text-align:center;
+	}
